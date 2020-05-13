@@ -1,0 +1,10 @@
+<launch>
+
+<node name="coordinates_tf_broadcaster" pkg="robomaster_test1" type="coordinates_tf_broadcaster.py" output="screen"/>
+
+<node name="publish_M_in_coordinateA" pkg="robomaster_test1" type="publish_M_in_coordinateA.py" output="screen" />
+
+<node name="publish_N_in_coordinateB" pkg="robomaster_test1" type="publish_N_in_coordinateB.py" output="screen" />
+
+</launch>
+
